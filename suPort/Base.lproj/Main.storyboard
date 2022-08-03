@@ -153,7 +153,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">Born in Los Angeles in 1988 managed to balance a full time career as an academic quantum physicist with a doctorate degree while also being a professional ballet dancer. In 2017, almost immediately after graduating and receiving her PhD she flew to China to perform at the Beijing National Theatre. She started dancing at a young age and sees a great connection between dance and quantum physics. With this, she combined her passions, collaborating on a meditative science-influenced virtual reality experience called Zero Point Virtual Reality, which is currently running at the Barbican Theatre. Merritt successfully combines her two passions and fuses her talents together to achieve great success. </mutableString>
+                                        <string key="content">Born in Los Angeles in 1988 managed to balance a full time career as an academic quantum physicist with a doctorate degree while also being a professional ballet dancer. In 2017, almost immediately after graduating and receiving her PhD she flew to China to perform at the Beijing National Theatre. She started dancing at a young age and sees a great connection between dance and quantum physics. With this, she combined her passions, collaborating on a meditative science-influenced virtual reality experience called Zero Point Virtual Reality, which is currently running at the Barbican Theatre. Merritt successfully combines her two passions and fuses her talents together to achieve great success. </string>
                                         <attributes>
                                             <color key="NSColor" systemColor="labelColor"/>
                                             <font key="NSFont" size="18" name="AmericanTypewriter"/>
@@ -221,7 +221,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.043137254899999998" green="0.070588238540000001" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Formula 1">
+                                <buttonConfiguration key="configuration" style="filled" title="Motorsport">
                                     <backgroundConfiguration key="background" image="circle" catalog="system"/>
                                     <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
                                     <color key="baseForegroundColor" red="0.043137254899999998" green="0.070588238540000001" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -301,7 +301,7 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DwU-6r-Xo9">
-                                <rect key="frame" x="197" y="628" width="174" height="166"/>
+                                <rect key="frame" x="191" y="628" width="174" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.043137254899999998" green="0.070588238540000001" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
@@ -359,7 +359,7 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">Tai Tzu Ying is a Taiwanese badminton player. At the age of 22, she became the Number 1 in women’s singles and has held that title for the longest time in BWF (Badminton World Federation) history: 213 weeks. Tai was introduced to badminton by her father who was a director of the Kaohsiung city’s badminton committee and a firefighter when she was in elementary school. Despite not coming from a wealthy background, Tai persevered and through her determination and ability to bounce back from losses, she won several matches and championships.</mutableString>
+                                        <string key="content">Tai Tzu Ying is a Taiwanese badminton player. At the age of 22, she became the Number 1 in women’s singles and has held that title for the longest time in BWF (Badminton World Federation) history: 213 weeks. Tai was introduced to badminton by her father who was a director of the Kaohsiung city’s badminton committee and a firefighter when she was in elementary school. Despite not coming from a wealthy background, Tai persevered and through her determination and ability to bounce back from losses, she won several matches and championships.</string>
                                         <attributes>
                                             <font key="NSFont" size="18" name="AmericanTypewriter"/>
                                             <real key="NSKern" value="0.0"/>
