@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		549A5122289C117600B21167 /* Workout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549A5121289C117600B21167 /* Workout.swift */; };
+		549A5124289C12D600B21167 /* WorkoutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549A5123289C12D600B21167 /* WorkoutTableViewController.swift */; };
 		56B01F622899A0CA006F54BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B01F612899A0CA006F54BF /* AppDelegate.swift */; };
 		56B01F642899A0CA006F54BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B01F632899A0CA006F54BF /* SceneDelegate.swift */; };
 		56B01F662899A0CA006F54BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B01F652899A0CA006F54BF /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		549A5121289C117600B21167 /* Workout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout.swift; sourceTree = "<group>"; };
+		549A5123289C12D600B21167 /* WorkoutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewController.swift; sourceTree = "<group>"; };
 		56B01F5E2899A0CA006F54BF /* suPort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = suPort.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B01F612899A0CA006F54BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		56B01F632899A0CA006F54BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +105,8 @@
 		56B01F602899A0CA006F54BF /* suPort */ = {
 			isa = PBXGroup;
 			children = (
+				549A5121289C117600B21167 /* Workout.swift */,
+				549A5123289C12D600B21167 /* WorkoutTableViewController.swift */,
 				56B01F612899A0CA006F54BF /* AppDelegate.swift */,
 				56B01F632899A0CA006F54BF /* SceneDelegate.swift */,
 				56B01F652899A0CA006F54BF /* ViewController.swift */,
@@ -263,8 +269,10 @@
 			files = (
 				56B01F6C2899A0CA006F54BF /* suPort.xcdatamodeld in Sources */,
 				56B01F662899A0CA006F54BF /* ViewController.swift in Sources */,
+				549A5124289C12D600B21167 /* WorkoutTableViewController.swift in Sources */,
 				56B01F622899A0CA006F54BF /* AppDelegate.swift in Sources */,
 				56B01F642899A0CA006F54BF /* SceneDelegate.swift in Sources */,
+				549A5122289C117600B21167 /* Workout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
