@@ -124,6 +124,11 @@
                     </view>
                     <navigationItem key="navigationItem" id="0nU-PS-1lf"/>
                     <connections>
+                        <outlet property="breakthroughs" destination="gVH-0I-don" id="6wB-SS-852"/>
+                        <outlet property="news" destination="uY5-WJ-AIM" id="lj7-Wf-cM7"/>
+                        <outlet property="personalJournal" destination="pi2-d6-Z4F" id="p77-hd-b95"/>
+                        <outlet property="quiz" destination="WSr-Pp-Sqf" id="2jv-V7-ZrE"/>
+                        <outlet property="sportsGallery" destination="Rhj-CV-oSY" id="b8M-dI-FEn"/>
                         <segue destination="k4B-7C-vNU" kind="show" id="jLL-hc-7h8"/>
                     </connections>
                 </viewController>
@@ -173,14 +178,14 @@
         <scene sceneID="UeK-5o-a3a">
             <objects>
                 <viewController title="Breakthoughs" id="k4B-7C-vNU" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="tHO-db-tbi">
+                    <view key="view" contentMode="scaleToFill" id="tHO-db-tbi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gUR-8T-K5X">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gUR-8T-K5X">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4S6-Uy-LWG">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4S6-Uy-LWG">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbL-qr-CLa">
