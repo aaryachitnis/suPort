@@ -22,26 +22,29 @@
                                 <attributedString key="attributedText">
                                     <fragment content="suPort">
                                         <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="53" name="AmericanTypewriter-Semibold"/>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="70" name="Copperplate-Bold"/>
                                             <font key="NSOriginalFont" size="48" name="AmericanTypewriter-Semibold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                 </attributedString>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <size key="shadowOffset" width="5" height="3"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rhj-CV-oSY">
-                                <rect key="frame" x="163" y="143" width="231" height="220"/>
+                                <rect key="frame" x="214" y="148" width="200" height="176"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" systemColor="systemRedColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Female sports gallery">
+                                <buttonConfiguration key="configuration" style="filled" title="Sports gallery">
                                     <backgroundConfiguration key="background" image="circle" catalog="system">
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="strokeColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="19"/>
                                     <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -50,40 +53,40 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pi2-d6-Z4F">
-                                <rect key="frame" x="165" y="371" width="229" height="224"/>
+                                <rect key="frame" x="177" y="394" width="249" height="245"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Personal journal">
                                     <backgroundConfiguration key="background" image="circle" catalog="system"/>
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="22"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVH-0I-don">
-                                <rect key="frame" x="-6" y="266" width="218" height="213"/>
+                                <rect key="frame" x="-8" y="238" width="262" height="253"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                <color key="tintColor" systemColor="tintColor"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Major breakthroughs">
+                                <buttonConfiguration key="configuration" style="filled" title="Breakthroughs">
                                     <backgroundConfiguration key="background" image="circle" catalog="system"/>
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="23"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <segue destination="qjV-EY-bmD" kind="show" id="Krp-Qg-JkZ"/>
+                                    <segue destination="k4B-7C-vNU" kind="show" id="0SC-VC-q5f"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uY5-WJ-AIM">
-                                <rect key="frame" x="165" y="603" width="229" height="224"/>
+                                <rect key="frame" x="214" y="669" width="199" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemRedColor"/>
+                                <color key="tintColor" red="0.1562189162" green="0.699090302" blue="0.088770486410000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="News">
                                     <backgroundConfiguration key="background" image="circle" catalog="system"/>
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="26"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -92,389 +95,232 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WSr-Pp-Sqf">
-                                <rect key="frame" x="-11" y="487" width="229" height="224"/>
+                                <rect key="frame" x="0.0" y="561" width="229" height="224"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.15698152780532837" green="0.69793909788131714" blue="0.088758982717990875" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Quiz">
                                     <backgroundConfiguration key="background" image="circle" catalog="system"/>
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="27"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="s1C-Gh-wz2" kind="show" id="VTR-NG-NFQ"/>
+                                </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="An app dedicated to women in sports" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QIs-ce-qZ2">
+                                <rect key="frame" x="72" y="125" width="270" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Italic" family="Rockwell" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="0nU-PS-1lf"/>
+                    <connections>
+                        <segue destination="k4B-7C-vNU" kind="show" id="jLL-hc-7h8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="541" y="68"/>
+            <point key="canvasLocation" x="519" y="68"/>
         </scene>
-        <!--Breakthroughs-->
-        <scene sceneID="RYt-6G-IUP">
+        <!--View Controller-->
+        <scene sceneID="8vE-q6-6ny">
             <objects>
-                <viewController title="Breakthroughs" id="qjV-EY-bmD" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="iGB-Ln-WYV">
+                <viewController id="s1C-Gh-wz2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pre-vy-rVX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ann-7b-n5F">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Which Female Athlete are you most like?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CNb-Gj-nXz">
+                                <rect key="frame" x="59" y="69" width="296" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Charter-Bold" family="Charter" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Take our quiz to find out!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eur-jb-yYS">
+                                <rect key="frame" x="59" y="123" width="296" height="101"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="H4w-Uh-SOU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="J86-tQ-FUS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g8v-U4-PlF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="540.57971014492762" y="775.44642857142856"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="UeK-5o-a3a">
+            <objects>
+                <viewController id="k4B-7C-vNU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tHO-db-tbi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gUR-8T-K5X">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="exa-3v-waA">
-                                        <rect key="frame" x="0.0" y="-88" width="414" height="1588"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4S6-Uy-LWG">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t7H-kG-RNR">
-                                                <rect key="frame" x="16" y="171" width="366" height="128"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Major Breakthroughs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbL-qr-CLa">
+                                                <rect key="frame" x="33" y="19" width="349" height="32"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Misty Copeland">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.95744401216506958" green="0.037178099155426025" blue="0.030303217470645905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="24" name="AmericanTypewriter"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="                                                                     ">
-                                                        <attributes>
-                                                            <color key="NSColor" systemColor="labelColor"/>
-                                                            <font key="NSFont" metaFont="system" size="14"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment>
-                                                        <string key="content">In 2015, Misty Copeland became the first African American woman to be promoted to principal dancer at the American Ballet Theatre in their 75-year history. </string>
-                                                        <attributes>
-                                                            <color key="NSColor" systemColor="labelColor"/>
-                                                            <font key="NSFont" size="18" name="AmericanTypewriter"/>
-                                                            <font key="NSOriginalFont" size="18" name="AmericanTypewriter"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment>
-                                                        <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                                        <attributes>
-                                                            <color key="NSColor" systemColor="labelColor"/>
-                                                            <font key="NSFont" metaFont="system" size="14"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vBb-jw-LiX">
-                                                <rect key="frame" x="16" y="321" width="366" height="138"/>
+                                                <fontDescription key="fontDescription" name="Copperplate" family="Copperplate" pointSize="31"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Misty Copeland" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ONQ-6A-N5P">
+                                                <rect key="frame" x="8" y="73" width="145" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Becky Hammon">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.95744401216506958" green="0.037178099155426025" blue="0.030303217470645905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="24" name="AmericanTypewriter"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="                                                                     ">
-                                                        <attributes>
-                                                            <color key="NSColor" systemColor="labelColor"/>
-                                                            <font key="NSFont" metaFont="system" size="14"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment>
-                                                        <string key="content">Becky Hammon became the first woman assistant coach in the NBA (National Basketball Association) when she was hired by the San Antonio Spurs in 2014</string>
-                                                        <attributes>
-                                                            <font key="NSFont" size="18" name="AmericanTypewriter"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="AmericanTypewriter"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content=".">
-                                                        <attributes>
-                                                            <font key="NSFont" size="14.666666984558105" name="Apple-Chancery"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAX-5F-eCG">
-                                                <rect key="frame" x="24" y="467" width="366" height="147"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
+                                                <color key="textColor" red="0.01340113427" green="0.076935814759999999" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R53-Ew-ooo">
+                                                <rect key="frame" x="8" y="106" width="351" height="137"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Toni Stone">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.95744401216506958" green="0.037178099155426025" blue="0.030303217470645905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="24" name="AmericanTypewriter"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="                                                                     ">
-                                                        <attributes>
-                                                            <color key="NSColor" systemColor="labelColor"/>
-                                                            <font key="NSFont" metaFont="system" size="14"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment>
-                                                        <string key="content">Toni Stone became the first female professional baseball player in a top-tier men’s league in 1953 when she signed with Indianapolis Clowns of the Negro American League.</string>
-                                                        <attributes>
-                                                            <font key="NSFont" size="18" name="AmericanTypewriter"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y5i-rO-G9d">
-                                                <rect key="frame" x="24" y="1021" width="366" height="189.5"/>
+                                                <string key="text">In 2015, Misty Copeland became the first African American woman to be promoted to principal dancer at the American Ballet Theatre in their 75-year history. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Manon Rheaume" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7dg-i0-TDR">
+                                                <rect key="frame" x="250" y="626" width="157" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Mo'ne Davis ">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.95744401216506958" green="0.037178099155426025" blue="0.030303217470645905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="24" name="AmericanTypewriter"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="                                                    ">
-                                                        <attributes>
-                                                            <font key="NSFont" size="14.666666984558105" name="Apple-Chancery"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment>
-                                                        <string key="content">In 2014, Mo’ne Davis became the first African American girl to play in the Little League World Series (18th girl overall). She wowed the crowds from her very first start as a pitcher when she threw a complete game shutout - the first ever pitched by a girl.</string>
-                                                        <attributes>
-                                                            <font key="NSFont" size="18" name="AmericanTypewriter"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="AmericanTypewriter"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qNY-lL-nKs">
-                                                <rect key="frame" x="24" y="864" width="366" height="174"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
+                                                <color key="textColor" red="0.086584972570000002" green="0.76689968090000005" blue="0.96398192640000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Toni Stone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ds8-cd-h9D">
+                                                <rect key="frame" x="8" y="427" width="100" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Billie Jean King">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.95744401216506958" green="0.037178099155426025" blue="0.030303217470645905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="24" name="AmericanTypewriter"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="                                          ">
-                                                        <attributes>
-                                                            <font key="NSFont" size="14.666666984558105" name="Apple-Chancery"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment>
-                                                        <string key="content">As a result of her advocacy, Billie Jean King levelled the playing field in Tennis at the U.S. Open, making the U.S. open the first major tournament to offer equal prize money to both men and women.</string>
-                                                        <attributes>
-                                                            <font key="NSFont" size="18" name="AmericanTypewriter"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="AmericanTypewriter"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h8X-dh-35X">
-                                                <rect key="frame" x="16" y="1218" width="366" height="214"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
+                                                <color key="textColor" red="0.091175208899999999" green="0.61581518359999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Billie Jean King" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wlD-d1-hWZ">
+                                                <rect key="frame" x="8" y="856" width="144" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Janet Gurthie">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.95744401216506958" green="0.037178099155426025" blue="0.030303217470645905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="24" name="AmericanTypewriter"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content=" ">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.95744401216506958" green="0.037178099155426025" blue="0.030303217470645905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.667" name="Apple-Chancery"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment>
-                                                        <string key="content">Janet Gurthie became the first woman to compete in NASCAR’s Winston Cup Series (known today as the Monster Energy Series) in 1976. The next year, she became the first woman to run in the Daytona 500 and later that year she switched to open wheel racing and became the first woman to ever qualify for the Indianapolis 500.</string>
-                                                        <attributes>
-                                                            <font key="NSFont" size="18" name="AmericanTypewriter"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="AmericanTypewriter"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JqY-2l-x65">
-                                                <rect key="frame" x="24" y="632" width="366" height="215"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
+                                                <color key="textColor" red="0.94397825000000002" green="0.51896487820000003" blue="0.73931365120000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Becky Hammon" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BZ0-8s-63B">
+                                                <rect key="frame" x="239" y="251" width="147" height="25"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Manon Rheaume">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.95744401216506958" green="0.037178099155426025" blue="0.030303217470645905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="24" name="AmericanTypewriter"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="   ">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.95744401216506958" green="0.037178099155426025" blue="0.030303217470645905" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="14.666666984558105" name="Apple-Chancery"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment content="                                                     ">
-                                                        <attributes>
-                                                            <font key="NSFont" size="14.666666984558105" name="Apple-Chancery"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                    <fragment>
-                                                        <string key="content">Manon Rheaume became the first woman to sign an NHL (National Hockey League) contract when the Tampa Bay Lightning signed her as a free agent in 1992. She also became the first woman to play in one of the four major men’s pro sports leagues, competing in an NHL exhibition game.</string>
-                                                        <attributes>
-                                                            <font key="NSFont" size="18" name="AmericanTypewriter"/>
-                                                            <real key="NSKern" value="0.0"/>
-                                                            <font key="NSOriginalFont" size="18" name="AmericanTypewriter"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="right" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0">
-                                                                <tabStops/>
-                                                            </paragraphStyle>
-                                                            <color key="NSStrokeColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <real key="NSStrokeWidth" value="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tse-Qg-Ari">
-                                                <rect key="frame" x="24" y="80" width="366" height="62"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
+                                                <color key="textColor" red="0.068548003090000004" green="0.35769225900000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wsn-L9-gev">
+                                                <rect key="frame" x="55" y="268" width="351" height="137"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Breakthroughs">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="43" name="AmericanTypewriter-Semibold"/>
-                                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
+                                                <string key="text">Becky Hammon became the first woman assistant coach in the NBA (National Basketball Association) when she was hired by the San Antonio Spurs in 2014.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XFd-BF-aUx">
+                                                <rect key="frame" x="8" y="449" width="351" height="137"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Toni Stone became the first female professional baseball player in a top-tier men’s league in 1953 when she signed with Indianapolis Clowns of the Negro American League.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfn-iL-VXM">
+                                                <rect key="frame" x="56" y="659" width="351" height="137"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">Manon Rheaume became the first woman to sign an NHL (National Hockey League) contract when the Tampa Bay Lightning signed her as a free agent in 1992. She also became the first woman to play in one of the four major men’s pro sports leagues, competing in an NHL exhibition game.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WdV-re-SpB">
+                                                <rect key="frame" x="8" y="883" width="351" height="137"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">As a result of her advocacy, Billie Jean King levelled the playing field in Tennis at the U.S. Open, making the U.S. open the first major tournament to offer equal prize money to both men and women.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Janet Guthrie" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gqo-LL-GX3">
+                                                <rect key="frame" x="8" y="1286" width="125" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
+                                                <color key="textColor" red="1" green="0.45021278570000001" blue="0.82059420329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mo’ne Davis" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="akO-gt-vwp">
+                                                <rect key="frame" x="271" y="1051" width="115" height="25"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
+                                                <color key="textColor" red="0.96588768250000001" green="0.61702365950000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqg-Om-aec">
+                                                <rect key="frame" x="55" y="1095" width="351" height="137"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">In 2014, Mo’ne Davis became the first African American girl to play in the Little League World Series (18th girl overall). She wowed the crowds from her very first start as a pitcher when she threw a complete game shutout - the first ever pitched by a girl. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cOp-7q-j9p">
+                                                <rect key="frame" x="8" y="1319" width="398" height="137"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The first woman to compete in NASCAR’s Winston Cup Series (known today as the Monster Energy Series) in 1976. The next year, she became the first woman to run in the Daytona 500 and later that year she switched to open wheel racing and became the first woman to ever qualify for the Indianapolis 500. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1500" id="JI5-Mg-QGR"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="1600" id="6ag-z7-x7D"/>
+                                            <constraint firstAttribute="height" constant="1500" id="FUK-MG-OMK"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1550" id="U0c-au-W8t"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="exa-3v-waA" secondAttribute="bottom" id="Dyb-oj-b9H"/>
-                                    <constraint firstItem="exa-3v-waA" firstAttribute="top" secondItem="Ann-7b-n5F" secondAttribute="top" id="XFj-KO-EOu"/>
-                                    <constraint firstItem="exa-3v-waA" firstAttribute="leading" secondItem="Ann-7b-n5F" secondAttribute="leading" id="m7J-fl-DRk"/>
-                                    <constraint firstAttribute="trailing" secondItem="exa-3v-waA" secondAttribute="trailing" id="qGt-fC-Sfr"/>
+                                    <constraint firstItem="4S6-Uy-LWG" firstAttribute="top" secondItem="gUR-8T-K5X" secondAttribute="top" id="5lX-BO-EBf"/>
+                                    <constraint firstAttribute="trailing" secondItem="4S6-Uy-LWG" secondAttribute="trailing" id="9WH-h0-zGV"/>
+                                    <constraint firstItem="4S6-Uy-LWG" firstAttribute="leading" secondItem="gUR-8T-K5X" secondAttribute="leading" id="ja7-v4-UfP"/>
+                                    <constraint firstAttribute="bottom" secondItem="4S6-Uy-LWG" secondAttribute="bottom" id="uRR-fi-H3l"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="KfJ-ft-5sp"/>
+                        <viewLayoutGuide key="safeArea" id="sGe-Yx-A6C"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="Ann-7b-n5F" secondAttribute="bottom" id="MFC-Bk-cK9"/>
-                            <constraint firstItem="Ann-7b-n5F" firstAttribute="leading" secondItem="KfJ-ft-5sp" secondAttribute="leading" id="QHr-Tq-ruF"/>
-                            <constraint firstItem="Ann-7b-n5F" firstAttribute="trailing" secondItem="KfJ-ft-5sp" secondAttribute="trailing" id="esV-sI-s6s"/>
-                            <constraint firstItem="Ann-7b-n5F" firstAttribute="top" secondItem="iGB-Ln-WYV" secondAttribute="top" id="fBo-OI-z9O"/>
-                            <constraint firstItem="exa-3v-waA" firstAttribute="height" secondItem="iGB-Ln-WYV" secondAttribute="height" multiplier="1.67411" id="qUa-zD-7by"/>
-                            <constraint firstItem="exa-3v-waA" firstAttribute="width" secondItem="iGB-Ln-WYV" secondAttribute="width" id="vix-Cs-z3T"/>
+                            <constraint firstItem="4S6-Uy-LWG" firstAttribute="height" secondItem="tHO-db-tbi" secondAttribute="height" multiplier="1.67411" id="6tP-AT-ezV"/>
+                            <constraint firstItem="gUR-8T-K5X" firstAttribute="trailing" secondItem="sGe-Yx-A6C" secondAttribute="trailing" id="7Yp-rG-3rg"/>
+                            <constraint firstItem="4S6-Uy-LWG" firstAttribute="width" secondItem="tHO-db-tbi" secondAttribute="width" id="LNJ-4P-51p"/>
+                            <constraint firstAttribute="bottom" secondItem="gUR-8T-K5X" secondAttribute="bottom" id="Nlt-16-I7X"/>
+                            <constraint firstItem="gUR-8T-K5X" firstAttribute="leading" secondItem="sGe-Yx-A6C" secondAttribute="leading" id="hEj-wU-VAG"/>
+                            <constraint firstItem="gUR-8T-K5X" firstAttribute="top" secondItem="tHO-db-tbi" secondAttribute="top" id="mF1-Om-qnl"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="mfr-yi-nYS"/>
+                    <navigationItem key="navigationItem" id="ty4-6O-IhU"/>
                     <size key="freeformSize" width="414" height="896"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uTn-BV-o5A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bKc-Ue-0KL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1213" y="68"/>
+            <point key="canvasLocation" x="1211.5942028985507" y="67.633928571428569"/>
         </scene>
         <!--News-->
         <scene sceneID="rts-qi-25F">
@@ -484,20 +330,6 @@ Cg
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j86-pZ-hpM">
-                                <rect key="frame" x="24" y="83" width="366" height="62"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="News">
-                                        <attributes>
-                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="43" name="AmericanTypewriter-Semibold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screenshot 2022-08-03 at 22.18.13" translatesAutoresizingMaskIntoConstraints="NO" id="Rh6-JU-VO6">
                                 <rect key="frame" x="-29" y="134" width="473" height="743"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -598,6 +430,20 @@ Cg
                                 <rect key="frame" x="221" y="688" width="215" height="135"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j86-pZ-hpM">
+                                <rect key="frame" x="24" y="64" width="366" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="News">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="43" name="Cochin-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="yrP-hM-z0z"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -820,7 +666,7 @@ Cg
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">Born in Texas in 1999, she started playing soccer at the age of 5 and is a goalkeeper for the Minnesota Aurora. In high school, Fuller was able to kick the ball over 60 yards and she was named the 2017 District 6-6A Goalkeeper of the Year. In 2020, while attending Vanderbilt University and playing soccer, she became the first woman to play in a football game for a Power Five conference when she kicked off for Vandeebilt. Two weeks later, she also became the first woman to score by kicking an extra point. In late 2020, Fuller’s jersey was added to the College Football Hall of Fame.</mutableString>
+                                        <string key="content">Born in Texas in 1999, she started playing soccer at the age of 5 and is a goalkeeper for the Minnesota Aurora. In high school, Fuller was able to kick the ball over 60 yards and she was named the 2017 District 6-6A Goalkeeper of the Year. In 2020, while attending Vanderbilt University and playing soccer, she became the first woman to play in a football game for a Power Five conference when she kicked off for Vandeebilt. Two weeks later, she also became the first woman to score by kicking an extra point. In late 2020, Fuller’s jersey was added to the College Football Hall of Fame.</string>
                                         <attributes>
                                             <font key="NSFont" size="18" name="AmericanTypewriter"/>
                                             <real key="NSKern" value="0.0"/>
@@ -924,16 +770,16 @@ Cg
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jwS-im-Sy2">
-                                <rect key="frame" x="48" y="88" width="174" height="166"/>
+                                <rect key="frame" x="20" y="74" width="174" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemGreenColor"/>
+                                <color key="tintColor" red="0.013401134274998913" green="0.076935814760952376" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Ballet">
                                     <backgroundConfiguration key="background" image="circle" catalog="system">
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="strokeColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </backgroundConfiguration>
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="25"/>
                                     <color key="baseForegroundColor" red="0.028368860483169556" green="0.047656051814556122" blue="0.050873897969722748" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -941,44 +787,14 @@ Cg
                                     <segue destination="5qc-la-r0c" kind="show" id="g82-7s-SHH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Mm-Fb-4gk">
-                                <rect key="frame" x="48" y="248" width="174" height="166"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="systemRedColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Motorsport">
-                                    <backgroundConfiguration key="background" image="circle" catalog="system"/>
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
-                                    <color key="baseForegroundColor" red="0.043137254899999998" green="0.070588238540000001" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="GBB-kE-R9R" kind="show" id="tsb-Cc-Qve"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hig-q4-clG">
-                                <rect key="frame" x="204" y="248" width="174" height="166"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.43221517780000002" green="0.1517659744" blue="0.65441768690000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Basketball">
-                                    <backgroundConfiguration key="background" image="circle" catalog="system"/>
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
-                                    <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="jX8-VT-Q8R" kind="show" id="dZy-kV-cCx"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tcz-5K-VuV">
-                                <rect key="frame" x="48" y="401" width="174" height="166"/>
+                                <rect key="frame" x="90" y="381" width="174" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.031487230211496353" green="0.94397825002670288" blue="0.93830651044845581" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.94397825002670288" green="0.51896487815203285" blue="0.73931365116694747" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Gymnastics">
                                     <backgroundConfiguration key="background" image="circle" catalog="system"/>
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="21"/>
                                     <color key="baseForegroundColor" red="0.043137254899999998" green="0.070588238540000001" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -987,13 +803,13 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W1w-Jd-96F">
-                                <rect key="frame" x="204" y="401" width="174" height="166"/>
+                                <rect key="frame" x="195" y="268" width="174" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.96398192644119263" green="0.57744866609573364" blue="0.024839462712407112" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.086584972570144053" green="0.76689968087237026" blue="0.96398192644119263" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Tennis">
                                     <backgroundConfiguration key="background" image="circle" catalog="system"/>
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="25"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -1002,13 +818,13 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEM-yD-KeZ">
-                                <rect key="frame" x="48" y="555" width="174" height="166"/>
+                                <rect key="frame" x="10" y="526" width="174" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.97811979055404663" green="0.0041876616887748241" blue="0.99210077524185181" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.99210077524185181" green="0.35799409626088702" blue="0.98584686184423409" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Soccer">
                                     <backgroundConfiguration key="background" image="circle" catalog="system"/>
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="27"/>
                                     <color key="baseForegroundColor" red="0.043137254899999998" green="0.070588238540000001" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -1017,13 +833,13 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D0F-0J-NNp">
-                                <rect key="frame" x="204" y="555" width="178" height="166"/>
+                                <rect key="frame" x="236" y="418" width="178" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.043137254899999998" green="0.070588238540000001" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="tintColor" red="1" green="0.45021278573933599" blue="0.82059420326107846" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Football">
                                     <backgroundConfiguration key="background" image="circle" catalog="system"/>
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="27"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -1032,13 +848,13 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cbe-ot-wAl">
-                                <rect key="frame" x="48" y="709" width="174" height="166"/>
+                                <rect key="frame" x="161" y="555" width="174" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.99633318185806274" green="0.92930334806442261" blue="0.007818455807864666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.83079263426566519" green="0.0" blue="0.99633318185806274" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Softball">
                                     <backgroundConfiguration key="background" image="circle" catalog="system"/>
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="26"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -1047,13 +863,13 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DwU-6r-Xo9">
-                                <rect key="frame" x="204" y="709" width="174" height="166"/>
+                                <rect key="frame" x="48" y="684" width="174" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.089825265109539032" green="0.66215026378631592" blue="0.64896368980407715" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.15323128204831785" green="0.6358901190035271" blue="0.58001917220557397" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Baseball">
                                     <backgroundConfiguration key="background" image="circle" catalog="system"/>
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="26"/>
                                     <color key="baseForegroundColor" red="0.043137254899999998" green="0.070588238540000001" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -1062,13 +878,13 @@ Cg
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="moh-3X-Suh">
-                                <rect key="frame" x="208" y="88" width="167" height="166"/>
+                                <rect key="frame" x="168" y="121" width="167" height="166"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" systemColor="tintColor"/>
+                                <color key="tintColor" red="0.068548003085678655" green="0.3576922590074626" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Badminton">
                                     <backgroundConfiguration key="background" image="circle" catalog="system"/>
-                                    <fontDescription key="titleFontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="18"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
                                     <color key="baseForegroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
@@ -1076,15 +892,47 @@ Cg
                                     <segue destination="2jr-Yw-oFl" kind="show" id="Ben-33-8fs"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Mm-Fb-4gk">
+                                <rect key="frame" x="48" y="227" width="174" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.091175208902076865" green="0.61581518359858523" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Motorsport">
+                                    <backgroundConfiguration key="background" image="circle" catalog="system"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="20"/>
+                                    <color key="baseForegroundColor" red="0.043137254899999998" green="0.070588238540000001" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="GBB-kE-R9R" kind="show" id="tsb-Cc-Qve"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qy5-DX-Tbp">
+                                <rect key="frame" x="220" y="703" width="174" height="166"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.24137430188775039" green="0.79140698800679121" blue="0.63058687594707319" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Basketball">
+                                    <backgroundConfiguration key="background" image="circle" catalog="system"/>
+                                    <fontDescription key="titleFontDescription" name="Kefa-Regular" family="Kefa" pointSize="26"/>
+                                    <color key="baseForegroundColor" red="0.043137254899999998" green="0.070588238540000001" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="jX8-VT-Q8R" kind="show" id="ssG-dg-pPq"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="o3g-gw-VTa"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="OZD-3K-bHs"/>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Click to learn more" id="OZD-3K-bHs"/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="63c-xw-vPK" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="541" y="-624"/>
+            <point key="canvasLocation" x="540.57971014492762" y="-624.10714285714278"/>
         </scene>
         <!--Alex Morgan-->
         <scene sceneID="4VA-dy-w35">
@@ -1308,7 +1156,7 @@ Cg
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">Serena Williams revolutionised women’s tennis with her powerful style of play. She has won more Grand Slam single titles (23 titles) than any other athlete during the open era. Serena learned tennis from her father along with her sister Venus. The Williams sisters have won 22 titles together with 14 Grand Slam titles and 3 Olympic gold medals. Serena started playing from a very young age and her passion for the sport is evident in her perseverance and determination to succeed in Tennis. Serena Williams’ success is a great inspiration for all women, especially women of colour.</mutableString>
+                                        <string key="content">Serena Williams revolutionised women’s tennis with her powerful style of play. She has won more Grand Slam single titles (23 titles) than any other athlete during the open era. Serena learned tennis from her father along with her sister Venus. The Williams sisters have won 22 titles together with 14 Grand Slam titles and 3 Olympic gold medals. Serena started playing from a very young age and her passion for the sport is evident in her perseverance and determination to succeed in Tennis. Serena Williams’ success is a great inspiration for all women, especially women of colour.</string>
                                         <attributes>
                                             <font key="NSFont" size="18" name="AmericanTypewriter"/>
                                             <real key="NSKern" value="0.0"/>
@@ -1368,7 +1216,7 @@ Cg
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <attributedString key="attributedText">
                                     <fragment>
-                                        <mutableString key="content">Michèle Mouton drove her way to success as a woman in an overwhelmingly masculine environment. Mouton is a former French rally driver. She competed for the World Rally Championship for team Audi and took 4 victories and finished runner up in the championship of 1982. Muton credited her parent’s support for her success, her father was a prisoner of war for 5 years but he loved racing and would come see all the rallies she participated in. Muton is often described as “motorsport’s most successful female driver” and Niki Lauda describes her as a “superwoman”.</mutableString>
+                                        <string key="content">Michèle Mouton drove her way to success as a woman in an overwhelmingly masculine environment. Mouton is a former French rally driver. She competed for the World Rally Championship for team Audi and took 4 victories and finished runner up in the championship of 1982. Muton credited her parent’s support for her success, her father was a prisoner of war for 5 years but he loved racing and would come see all the rallies she participated in. Muton is often described as “motorsport’s most successful female driver” and Niki Lauda describes her as a “superwoman”.</string>
                                         <attributes>
                                             <font key="NSFont" size="18" name="AmericanTypewriter"/>
                                             <real key="NSKern" value="0.0"/>
@@ -1490,6 +1338,9 @@ Cg
             <point key="canvasLocation" x="-165.21739130434784" y="67.633928571428569"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="jLL-hc-7h8"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="0_England-v-Germany-UEFA-Womens-Euro-2022-Final-Wembley-Stadium" width="615" height="439"/>
         <image name="2" width="666" height="888"/>
@@ -1512,9 +1363,6 @@ Cg
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGreenColor">
-            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
