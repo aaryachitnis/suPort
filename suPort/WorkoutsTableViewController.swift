@@ -1,38 +1,45 @@
 //
-//  WorkoutTableViewController.swift
+//  WorkoutsTableViewController.swift
 //  suPort
 //
-//  Created by Mariam on 04/08/2022.
+//  Created by Aarya Chitnis on 04/08/2022.
 //
+
 
 import UIKit
 
-class WorkoutTableViewController: UITableViewController {
+class WorkoutsTableViewController: UITableViewController {
     
-    var allworkouts : [workOut] = []
-
+    var toDos : [WorkoutCD] = []
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        
-        allworkouts = logWorkouts()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
-        
-        func logWorkouts() -> [workOut] {
-            let swift  = workOut()
-            swift.workout1 = "Completed 5 pushups"
-            
-            let run = workOut()
-            run.workout1 = "Went for a 3k run"
-            return[swift, run]
+        super.viewDidLoad();
         }
+    override func viewWillAppear(_ animated: Bool) {
+      getToDos()
     }
+    func getToDos(){
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
 
+            if let coreDataToDos = try? context.fetch(WorkoutCD.fetchRequest()) as? [WorkoutCD] {
+                    toDos = coreDataToDos
+                    tableView.reloadData()
+            }
+          }
+    }
+    /*
+    func createToDos() -> [ToDo] {
+        let swift = ToDo()
+        swift.name = "20 pushups"
+
+        let dog = ToDo()
+        dog.name = "30 minute run"
+      // important is set to false by default
+        return [swift, dog]
+
+        
+    }
+     */
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -42,18 +49,28 @@ class WorkoutTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return allworkouts.count
+        return toDos.count
     }
 
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let toDo = toDos[indexPath.row]
+        cell.textLabel?.text = toDo.name
+        return cell
 
         // Configure the cell...
-
-        return cell
     }
-    */
+    
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let addVC = segue.destination as? AddWorkoutViewController {
+            addVC.previousVC = self
+          }
+    }
+    
 
     /*
     // Override to support conditional editing of the table view.
@@ -90,14 +107,8 @@ class WorkoutTableViewController: UITableViewController {
     }
     */
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
+    
+    
 
 }
