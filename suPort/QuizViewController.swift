@@ -16,6 +16,7 @@ class QuizViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        label.isHidden = true
 
         // Do any additional setup after loading the view.
     }
@@ -35,5 +36,6 @@ class QuizViewController: UIViewController {
         
         let randomNumber = Int.random(in: 0...(arrayOfNames.count-1))
         label.text = arrayOfNames[randomNumber]
+        label.isHidden = false
     }
 }
