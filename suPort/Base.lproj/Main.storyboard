@@ -720,10 +720,10 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ynT-c9-Sn3">
-                                <rect key="frame" x="18" y="263" width="379" height="54"/>
+                                <rect key="frame" x="155" y="278" width="105" height="28"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Day and Workout">
+                                    <fragment content="Workout">
                                         <attributes>
                                             <font key="NSFont" size="24" name="AmericanTypewriter-Semibold"/>
                                             <font key="NSOriginalFont" size="24" name="AmericanTypewriter-Semibold"/>
