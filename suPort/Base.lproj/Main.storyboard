@@ -231,14 +231,14 @@
         <scene sceneID="UeK-5o-a3a">
             <objects>
                 <viewController title="Breakthoughs" id="k4B-7C-vNU" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="tHO-db-tbi">
+                    <view key="view" contentMode="scaleToFill" id="tHO-db-tbi">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gUR-8T-K5X">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gUR-8T-K5X">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4S6-Uy-LWG">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4S6-Uy-LWG">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbL-qr-CLa">
@@ -604,7 +604,7 @@
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" red="0.21793768746122605" green="0.82230473590099429" blue="0.37991736557582267" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Workout">
+                                <buttonConfiguration key="configuration" style="plain" title="Workouts">
                                     <backgroundConfiguration key="background" image="circle.fill" catalog="system">
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <color key="strokeColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -626,7 +626,7 @@
             </objects>
             <point key="canvasLocation" x="2660.8695652173915" y="67.633928571428569"/>
         </scene>
-        <!--Workout logs-->
+        <!--Workouts-->
         <scene sceneID="uk4-HY-lmG">
             <objects>
                 <tableViewController id="sqD-kP-Due" customClass="WorkoutsTableViewController" customModule="suPort" customModuleProvider="target" sceneMemberID="viewController">
@@ -649,7 +649,7 @@
                             <outlet property="delegate" destination="sqD-kP-Due" id="src-qc-e5F"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Workout logs" id="zTY-4f-mgt">
+                    <navigationItem key="navigationItem" title="Workouts" id="zTY-4f-mgt">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="ZHP-lU-v7l">
                             <connections>
                                 <segue destination="5I1-is-7DL" kind="show" id="DSC-Jm-I47"/>
