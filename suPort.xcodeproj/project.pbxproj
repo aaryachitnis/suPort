@@ -20,6 +20,7 @@
 		56B01F7C2899A0CB006F54BF /* suPortTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B01F7B2899A0CB006F54BF /* suPortTests.swift */; };
 		56B01F862899A0CB006F54BF /* suPortUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B01F852899A0CB006F54BF /* suPortUITests.swift */; };
 		56B01F882899A0CB006F54BF /* suPortUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B01F872899A0CB006F54BF /* suPortUITestsLaunchTests.swift */; };
+		F45059FA289CB5ED0038955D /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45059F9289CB5ED0038955D /* QuizViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		56B01F812899A0CB006F54BF /* suPortUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = suPortUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56B01F852899A0CB006F54BF /* suPortUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suPortUITests.swift; sourceTree = "<group>"; };
 		56B01F872899A0CB006F54BF /* suPortUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = suPortUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F45059F9289CB5ED0038955D /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				56B01F6F2899A0CB006F54BF /* LaunchScreen.storyboard */,
 				56B01F722899A0CB006F54BF /* Info.plist */,
 				56B01F6A2899A0CA006F54BF /* suPort.xcdatamodeld */,
+				F45059F9289CB5ED0038955D /* QuizViewController.swift */,
 			);
 			path = suPort;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				56B01F6C2899A0CA006F54BF /* suPort.xcdatamodeld in Sources */,
 				56B01F662899A0CA006F54BF /* ViewController.swift in Sources */,
 				565EF903289C3ACC00E974E1 /* AddWorkoutViewController.swift in Sources */,
+				F45059FA289CB5ED0038955D /* QuizViewController.swift in Sources */,
 				565EF901289C233200E974E1 /* WorkoutLogs.swift in Sources */,
 				565EF8FF289C230A00E974E1 /* WorkoutsTableViewController.swift in Sources */,
 				56B01F622899A0CA006F54BF /* AppDelegate.swift in Sources */,
